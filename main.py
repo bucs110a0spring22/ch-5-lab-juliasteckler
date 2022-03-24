@@ -32,6 +32,42 @@ import time
 #                   Your Code Goes Below                #
 #########################################################
 
+def drawSquare(darty=None, width=0, top_left_x=0, top_left_y=0):
+  darty.goto(top_left_x, top_left_y)
+  darty.down()
+  for i in range(4):
+    darty.forward(width)
+    darty.left(90)
+
+def drawLine(darty=None, x_start=0, y_start=0, x_end=0, y_end=0):
+  darty.up()
+  darty.goto(x_start)
+  darty.down()
+  darty.goto(x_end)
+  darty.up()
+  darty.goto(y_start)
+  darty.down()
+  darty.goto(y_end)
+
+def drawCircle(darty=None, radius=0):
+  darty.circle(radius)
+
+def setUpDartboard(myscreen=None, myturtle=None):
+  drawSquare(width=0, top_left_x=0,
+  top_left_y=0)
+  for i in range(2):
+    drawLine(x_start=0, y_start=0, x_end=0, y_end=0)
+  drawCircle(radius=0)
+
+def isInCircle(myturtle=None, circle_center_x=0, circle_center_y=0, radius=0):
+  darty = turtle.Turtle()
+def throwDart(myturtle=None):
+  
+def playDarts(myturtle=None):
+  
+def montePi(myturtle=None, num_darts=0):
+  
+
 
 
 #########################################################
