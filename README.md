@@ -13,10 +13,10 @@ Draw a functioning dartboard
 ## GRACE DAYS
 Grace days used for this assignment: 0
 
-Grace days remaining: 1/5
+Grace days remaining: 0/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- I don't understand why my code won't run, I've tried to work out the functions given and how to draw the dartboard, but no matter what I try I can't get past that step. 
+ N/A
 ## REFERENCES:
  N/A
 
